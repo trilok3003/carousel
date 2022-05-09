@@ -1,0 +1,7 @@
+<section class="carousel">
+<ul class="carousel-items">
+    <li class="carousel-item" *ngFor="let item of items">
+    <ng-container [ngTemplateOutlet]="item.template"></ng-container>
+    </li>
+</ul>
+</section>
